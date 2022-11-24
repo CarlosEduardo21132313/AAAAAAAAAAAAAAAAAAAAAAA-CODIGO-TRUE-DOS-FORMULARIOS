@@ -11,8 +11,9 @@
         <p #login>Faça agora seu login!</p>
         <form class="login" method="post" name="login">
 
-            <input type="text" class="Senhas" placeholder="Nome" name="name">
-            <input type="password" class="senhas" placeholder="Senha" name="Senha">
+            <input type="text" id="Senhas" placeholder="Nome" name="name">
+            <input type="submit" value="Enviar">
+            <input type="password" id="senhas" placeholder="Senha" name="Senha">
             <img id="energy" src="energia.png">
             
 
@@ -20,3 +21,14 @@
 
     </body>
 </html>
+
+<script>
+
+
+var input = document.querySelector("#Senhas");
+var texto = input.value;
+console.log(texto);
+
+
+
+</script>
