@@ -1,0 +1,142 @@
+body{
+
+
+    background-color: rgb(61, 60, 60);
+
+
+
+}
+
+p, #home{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    color: yellow; 
+    font-family:Bradley Hand, cursive
+
+}
+
+p, #simP{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    color: rgba(243, 39, 39, 0.979); 
+    font-family:Bradley Hand, cursive
+
+}
+
+p, #login{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    color: rgba(214, 81, 255, 0.979); 
+    font-family:Bradley Hand, cursive
+
+}
+
+button{
+    font-size: 30px;
+    position:absolute;
+    border: 2px solid rgb(214, 214, 10);
+    padding: 10px 20px;
+    margin: 20px 40px;
+    border-radius: 25%;
+    font-weight: bold;
+    color:yellow;
+    background-color: transparent;
+    font-family:Bradley Hand, cursive
+   
+}
+
+#sim{
+
+    border: 20px;
+    margin-left: 20%;
+    margin-right: auto;
+
+
+}
+
+#nao{
+
+    border: 70px;
+    margin-left: 70%;
+    margin-top: auto;
+    margin-right: auto;
+
+}
+
+button:hover{
+
+    color: rgb(247, 247, 218);
+    cursor: pointer;
+
+}
+ 
+img, #simp{
+
+    margin-left: 30%;
+    margin-top: auto;
+    margin-right: auto;
+  
+
+}
+img, #homep{
+
+    margin-left: 25%;
+    margin-top: auto;
+    margin-right: auto;
+  
+
+}
+
+#file{
+    position: relative;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 0%;
+    top: -250px;
+    margin-right: -20%;
+    color: rgba(243, 39, 39, 0.979); 
+    font-family:Bradley Hand, cursive;
+    border-radius: 100px;
+    background-color: transparent;
+
+}
+
+.senhas{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    text-align: center;
+    position: absolute;
+}
+
+.Senhas{
+    top: 30%;
+    left: 30%;
+    text-align: center;
+    position: absolute;
+
+}
+input, .senhas, .Senhas{
+   
+    font-size: 20px;
+    border-radius: 15px;
+    color: blueviolet;
+    background-color: black;
+}
+
+::placeholder{
+    font-weight: bold;
+    color: rgb(243, 104, 248); 
+}
+
+img, #energy{
+
+    margin-left: 30%;
+    margin-top: -1%;
+    margin-right: auto;
+  
+
+}
